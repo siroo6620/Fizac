@@ -1,0 +1,24 @@
+{
+  "name": "styled-components",
+  "version": "5.0.0",
+  "description": "https://mui.com/guides/interoperability/#styled-components",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@mui/material": "^5.0.0",
+    "@mui/styled-engine-sc": "^5.0.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "parcel-bundler": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "latest"
+  },
+  "keywords": [],
+  "alias": {
+    "@mui/styled-engine": "@mui/styled-engine-sc"
+  }
+}
